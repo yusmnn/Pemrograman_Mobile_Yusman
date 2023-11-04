@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">C2-Prak2-13020200252</string>
+    <string-array name="tahun">
+        <item>-Pilih Angkatan-</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+    </string-array>
+</resources>

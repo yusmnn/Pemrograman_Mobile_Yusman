@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 txtNama.setText("");
                 txtNilaiAkhir.setText("");
                 txtIndeks.setText("");
-                Toast.makeText(this, "Input Nilai Dibatalkan...", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Input Nilai Dibatalkan...", Toast.LENGTH_LONG).show();
                 txtStb.requestFocus();
             }
         }
