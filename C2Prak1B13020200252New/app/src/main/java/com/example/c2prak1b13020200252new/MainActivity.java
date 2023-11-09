@@ -90,8 +90,8 @@ public class MainActivity extends AppCompatActivity {
         try {
             dataFileGambar = getDataFileGambar();
 
-//            Uri uri = FileProvider.getUriForFile(this, "com.example.c2prak1b13020200252new.fileprovider", dataFileGambar.getFile());
-            Uri uri = FileProvider.getUriForFile(this, BuildConfig.APPLICATION_ID +  ".fileprovider", dataFileGambar.getFile());
+            Uri uri = FileProvider.getUriForFile(this, "com.example.c2prak1b13020200252new.fileprovider", dataFileGambar.getFile());
+//            Uri uri = FileProvider.getUriForFile(this, BuildConfig.APPLICATION_ID +  ".fileprovider", dataFileGambar.getFile());
 
             intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
             startActivityForResult(intent, REQ_CODE_BUKA_KAMERA);

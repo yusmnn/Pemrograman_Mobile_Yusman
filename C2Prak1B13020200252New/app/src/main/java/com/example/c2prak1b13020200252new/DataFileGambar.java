@@ -27,9 +27,4 @@ public class DataFileGambar {
     public void setFile(File file) {
         this.file = file;
     }
-
-
-
-
-
 }

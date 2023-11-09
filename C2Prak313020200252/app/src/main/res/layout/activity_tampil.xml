@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TampilActivity">
+
+
+<!--        <TableLayout-->
+<!--        android:id="@+id/tb_mahasiswa"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:stretchColumns="1"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        <TableRow>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="107dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:gravity="start"-->
+<!--                android:paddingEnd="8dp"-->
+<!--                android:text="Stambuk"-->
+<!--                android:textSize="18sp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:autoLink="web"-->
+<!--                android:text="Nama Mahasiswa"-->
+<!--                android:textSize="18sp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:autoLink="web"-->
+<!--                android:text="Angkatan"-->
+<!--                android:textSize="18sp" />-->
+
+<!--        </TableRow>-->
+
+<!--        <TableRow>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="107dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:gravity="start"-->
+<!--                android:paddingEnd="8dp"-->
+
+<!--                android:text="13020200252"-->
+<!--                android:textSize="15dp"-->
+<!--                tools:ignore="TextSizeCheck" />-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:autoLink="web"-->
+<!--                android:text="Yusman"-->
+<!--                android:textSize="18sp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:autoLink="web"-->
+<!--                android:text="2020"-->
+<!--                android:textSize="18sp" />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+
+    <TableLayout
+        android:id="@+id/tb_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"></TableLayout>
+
+    <Button
+        android:id="@+id/btn_tutup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="32dp"
+        android:text="TUTUP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="32dp"
+        android:text="EDIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_hapus"
+        app:layout_constraintStart_toEndOf="@+id/btn_tutup" />
+
+    <Button
+        android:id="@+id/btn_hapus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:text="HAPUS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toEndOf="@+id/btn_edit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

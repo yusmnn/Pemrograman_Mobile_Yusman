@@ -7,10 +7,10 @@
     <string name="sistem_informasi">Sistem Informasi</string>
     <string name="minat">Minat</string>
     <string name="badan_eksekutif_mahasiswa">Badan Eksekutif Mahasiswa</string>
-    <string name="karya_tulis_ilmiah">Karya Tulis Ilmiah</string>
-    <string name="wirausaha">Wirausaha</string>
+    <string name="karya_tulis_ilmiah">Penulisan Karya Ilmiah</string>
+    <string name="wirausaha">Kewirausahaan</string>
     <string name="kesenian">Kesenian</string>
-    <string name="jurnalis">Jurnalis</string>
+    <string name="jurnalis">Jurnalistik</string>
     <string name="olahraga">Olahraga</string>
     <string name="tampilkan_ringkasan">Tampilkan Ringkasan</string>
     <string name="ringkasan_data">Ringkasan Data</string>
