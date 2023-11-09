@@ -21,8 +21,4 @@ public class Mahasiswa {
     public int getAngkatan() {
         return angkatan;
     }
-
-
-
-
 }

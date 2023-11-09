@@ -84,9 +84,9 @@ public class TampilActivity extends AppCompatActivity {
         col2.setText("Nama Mahasiswa");
         col3.setText("Angkatan");
 
-        col1.setWidth(200);
-        col2.setWidth(300);
-        col3.setWidth(150);
+        col1.setWidth(400);
+        col2.setWidth(500);
+        col3.setWidth(400);
 
 
         tr.addView(col1);
@@ -106,9 +106,10 @@ public class TampilActivity extends AppCompatActivity {
             col2.setText(mhs.getNama());
             col3.setText(String.valueOf(mhs.getAngkatan()));
 
-            col1.setWidth(200);
-            col2.setWidth(300);
-            col3.setWidth(150);
+            col1.setWidth(400);
+            col2.setWidth(500);
+            col3.setWidth(400);
+
 
             tr.addView(col1);
             tr.addView(col2);
