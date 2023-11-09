@@ -47,7 +47,7 @@ public class DbHelper extends SQLiteOpenHelper {
             cursor.moveToFirst();
             do{
                 arrListMhs.add(new Mahasiswa(cursor.getString(0), cursor.getString(1), cursor.getInt(2) ));
-            } while(cursor.moveToFirst());
+            } while(cursor.moveToNext());
 
         }
         return  arrListMhs;
@@ -64,6 +64,5 @@ public class DbHelper extends SQLiteOpenHelper {
         cv.put("angkatan", mhs.getAngkatan());
         db.update("tb_mhs", cv, "stb=?", new String[]{stb});
     }
-
 
 }
